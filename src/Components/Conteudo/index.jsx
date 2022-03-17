@@ -63,6 +63,7 @@ const Look_Destaque = styled.div`
     transform: scale(1.15);
     transition: transform 1s ease;   
     cursor: pointer;
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;   
 }
 `;
 
@@ -74,7 +75,8 @@ const Look_Secundario = styled.div`
     border: 0.2vw solid  #ca43d6;
     cursor: pointer;
     transform: scale(1.15);
-    transition: transform 1s ease;     
+    transition: transform 1s ease;    
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;    
 }
 `;
 
@@ -86,7 +88,8 @@ const Look_Acessorio = styled.div`
     border: 0.2vw solid  #ca43d6;
     cursor: pointer;
     transform: scale(1.15);
-    transition: transform 1s ease;     
+    transition: transform 1s ease;   
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;     
 }
 `;
 
@@ -99,6 +102,7 @@ const Look_Acessorio2 = styled.div`
     cursor: pointer;
     transform: scale(1.15);
     transition: transform 1s ease;      
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;   
 }
 `;
 
@@ -110,7 +114,8 @@ const Look_Acessorio3 = styled.div`
     border: 0.2vw solid  #ca43d6;
     cursor: pointer;
     transform: scale(1.15);
-    transition: transform 1s ease;    
+    transition: transform 1s ease;   
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;    
 }
 `;
 
@@ -123,6 +128,7 @@ const Look_Acessorio4 = styled.div`
     cursor: pointer;
     transform: scale(1.15);
     transition: transform 1s ease;   
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;   
 }
 `;
 
@@ -135,6 +141,7 @@ const Look_Make = styled.div`
     cursor: pointer;
     transform: scale(1.15);
     transition: transform 1s ease;   
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;   
 }
 `;
 

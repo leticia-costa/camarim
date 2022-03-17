@@ -2,7 +2,6 @@ import React from "react";
 import styled from "styled-components";
 import background from "../../assets/images/Cabecalho/Background.jpg"; 
 import Img_Logo from "../../assets/images/Cabecalho/Logo.jpg"; 
-import FilterAltIcon from '@mui/icons-material/FilterAlt';
 
 const Grid_Cabecalho = styled.header`
   align-items: center;
@@ -42,19 +41,21 @@ const Logo = styled.img`
 const Filtro = styled.button`
   width: 10%;
   height: 40px;
-  color:  black;
-  background: #ffffff;
+  color:  #ffffff;
+  background: black;
   font-weight: bold;
   font-size: 1.5em;
   border-radius: 5vh;
-  border: none;
+  border: 0.15vw solid #ffffff;
   :hover{
-      cursor: pointer;
+    cursor: pointer;
+    box-shadow: 0 0 10px #e100ff, 0 0 25px  #ca43d6, 0 0 50px #d400ff;   
     color: #ca43d6;
+    border: none;
 }
     :active{
-    border: 0.12vw solid #ca43d6;
-    color: #ca43d6;
+    background: white;
+    color: #6a0074;
 }
 `;
 
@@ -64,7 +65,7 @@ const Cabecalho = () => {
         <Menu> 
            
             <Tituo> <Logo src={Img_Logo} alt="LOgo Camarim"/>      CAMARIM</Tituo>
-            <Filtro><svg data-testid="FilterAltIcon"></svg>Filtrar</Filtro>
+            <Filtro>Filtrar</Filtro>
         </Menu>
     </Grid_Cabecalho>
   );
